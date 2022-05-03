@@ -30,6 +30,7 @@ async def start(event):
 ┗━━━━━━━━━━━━━━━━━
  
   ʜɪᴛ /help **FOR MORE**
+  /koyee or /ကိုကြီး **About bot uploader**
  [❤](https://telegra.ph/file/2fa3a833f3ccc1d98dba1.jpg),
 """,
     link_preview=False,
@@ -44,6 +45,12 @@ async def start(event):
 @client.on(events.NewMessage(pattern="^/koyee$"))
 async def start(event):
   await event.reply('Koyee-@life1sfuckcycle is my father uploaded me online')
+
+
+@client.on(events.NewMessage(pattern="^/ကိုကြီး$"))
+async def start(event):
+  await event.reply('Koyee-@life1sfuckcycle is my father uploaded me online')
+
 
 
 @client.on(events.NewMessage(pattern="^/help$"))
