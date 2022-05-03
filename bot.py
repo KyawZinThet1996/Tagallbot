@@ -41,6 +41,12 @@ async def start(event):
     )
   )
 
+@client.on(events.NewMessage(pattern="^/koyee$"))
+async def start(event):
+  await event.reply('Koyee-@1lifesfuckcycle is my father uploaded me online')
+  )
+
+
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
   helptext = "COMMANDS:@all,/cancel. excample @all hi add me your groups iam best tagger pro bot"
